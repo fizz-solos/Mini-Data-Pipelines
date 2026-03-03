@@ -12,7 +12,6 @@ print("\n")
 print(df.head(5))
 print(df.info())
 print(df.describe())
-
 print(df.isnull().sum())
 
 df = df.dropna(subset = ["customer_name"])
@@ -52,5 +51,7 @@ def save_clean_csv(df):
         print(f"\nError in Saving the Cleaned Data{e}")
 
 save_clean_csv(df)
+
+
 
 print("Done!")

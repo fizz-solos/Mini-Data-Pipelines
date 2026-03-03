@@ -15,6 +15,7 @@ print(ratings.isnull().sum())
 print(ratings.describe())
 print(ratings.duplicated(subset=["movie_id", "user", "rating", "review_date"]).sum())
 
+
 ratings = ratings.drop_duplicates(subset=["movie_id", "user", "rating", "review_date"])
 ratings = ratings.dropna(subset = ["rating"])
 ratings = ratings[ratings["rating"] <= 10]
