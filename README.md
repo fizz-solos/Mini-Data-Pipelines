@@ -9,7 +9,7 @@ My first real data cleaning project. Takes messy student CSV data and cleans it 
 
 **What I learned:** dropna, fillna, drop_duplicates, apply, basic error handling
 
-[Code](data_pipeline.py)
+[Code](Student_pipeline/data_pipeline.py)
 
 ---
 
