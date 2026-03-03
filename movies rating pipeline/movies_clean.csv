@@ -1,0 +1,19 @@
+rating_id,movie_id,user,rating,review_date,title,genre,year,director,rating_category
+1,1,Alice,9.0,2023-01-10,The Dark Knight,Action,2008,Christopher Nolan,Excellent
+2,1,Bob,8.5,2023-01-12,The Dark Knight,Action,2008,Christopher Nolan,Good
+3,2,Alice,9.5,2023-02-01,Inception,Sci-Fi,2010,Christopher Nolan,Excellent
+4,2,Carol,8.0,2023-02-03,Inception,Sci-Fi,2010,Christopher Nolan,Good
+5,3,Bob,10.0,2023-03-05,The Godfather,Drama,1972,Francis Ford Coppola,Excellent
+7,4,Alice,9.0,2023-04-10,Interstellar,Sci-Fi,2014,Christopher Nolan,Excellent
+8,4,Carol,8.5,2023-04-11,Interstellar,Sci-Fi,2014,Christopher Nolan,Good
+9,5,Bob,9.5,2023-05-01,Pulp Fiction,Drama,1994,Quentin Tarantino,Excellent
+10,5,Eve,9.0,2023-05-02,Pulp Fiction,Drama,1994,Quentin Tarantino,Excellent
+11,6,Alice,8.5,2023-06-01,The Matrix,Action,1999,Wachowski Sisters,Good
+12,6,Dave,7.5,2023-06-03,The Matrix,Action,1999,Wachowski Sisters,Good
+13,7,Bob,8.0,2023-07-10,Forrest Gump,Drama,1994,Robert Zemeckis,Good
+15,8,Alice,9.5,2023-08-01,The Shawshank Redemption,Drama,1994,Frank Darabont,Excellent
+16,8,Bob,9.0,2023-08-02,The Shawshank Redemption,Drama,1994,Frank Darabont,Excellent
+17,9,Dave,7.0,2023-09-05,Avengers Endgame,Action,2019,Russo Brothers,Good
+18,9,Eve,7.5,2023-09-06,Avengers Endgame,Action,2019,Russo Brothers,Good
+19,10,Alice,9.5,2023-10-01,Parasite,Drama,2019,Bong Joon-ho,Excellent
+20,10,Carol,9.0,2023-10-03,Parasite,Drama,2019,Bong Joon-ho,Excellent

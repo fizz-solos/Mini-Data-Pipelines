@@ -1,7 +1,6 @@
 import pandas as pd
 import os
 
-# This makes sure the file is found regardless of where you run the script from
 script_dir = os.path.dirname(os.path.abspath(__file__))
 df = pd.read_csv(os.path.join(script_dir, "students.csv"))
 
@@ -25,16 +24,10 @@ def get_grades(Score):
         return "F"
 
 df["Grade"] = df["Score"].apply(get_grades)
-
 df = df.dropna(subset = ["Name"])
-
 df = df.dropna(subset =  ["Score"])
-
 df["Age"] = df["Age"].fillna(df["Age"].mean())
-
-
 df = df.drop_duplicates()
-
 
 print("\nCleaned Data")
 print(df)

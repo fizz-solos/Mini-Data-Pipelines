@@ -1,0 +1,11 @@
+movie_id,title,genre,year,director
+1,The Dark Knight,Action,2008,Christopher Nolan
+2,Inception,Sci-Fi,2010,Christopher Nolan
+3,The Godfather,Drama,1972,Francis Ford Coppola
+4,Interstellar,Sci-Fi,2014,Christopher Nolan
+5,Pulp Fiction,Drama,1994,Quentin Tarantino
+6,The Matrix,Action,1999,Wachowski Sisters
+7,Forrest Gump,Drama,1994,Robert Zemeckis
+8,The Shawshank Redemption,Drama,1994,Frank Darabont
+9,Avengers Endgame,Action,2019,Russo Brothers
+10,Parasite,Drama,2019,Bong Joon-ho
